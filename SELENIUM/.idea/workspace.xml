@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d804cbc7-47c0-4c8a-8ae6-899c88198c9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/AddressBook/AddressBook_Mohit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/AddressBook/AddressBook_Mohit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/AddressBook/AddressBook_Mohit/address_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/AddressBook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/AccountDebit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/CheckVowels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/CompareString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/Fibbonacci series.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/Line_Comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/PowerOf2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/QuotientRemainder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/RandomMethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/SwappingTwoNUmber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/demo3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/employee_wage_per_month.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/leapyear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/line_Comarison2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/perfectnumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/primenumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/removingSpaceFromString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/smaller_from_three_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Basics_Python/swapping_1st_Last_Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/python_projects/Employee_Wage/add_part_time_job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/python_projects/Employee_Wage/emp_daily_wage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/python_projects/Employee_Wage/monthly_wage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/python_projects/Employee_Wage/present_absent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/python_projects/Employee_Wage/total_working_hours.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver_Notes/EULA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver_Notes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver_Notes/credits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SELENIUM1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkalignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diseableenable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enable_selected_displayed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebooktest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getAttribute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locate_webElement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mohit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_tagname.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2BjqvgHCq7Nbh7wIt6P2n472jkz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SELENIUM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d804cbc7-47c0-4c8a-8ae6-899c88198c9c" name="Changes" comment="" />
+      <created>1657430074119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657430074119</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

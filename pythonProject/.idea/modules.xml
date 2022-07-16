@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AutoIt/.idea/AutoIt.iml" filepath="$PROJECT_DIR$/../AutoIt/.idea/AutoIt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PYTEST/.idea/PYTEST.iml" filepath="$PROJECT_DIR$/../PYTEST/.idea/PYTEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Page_Object_Model/.idea/Page_Object_Model.iml" filepath="$PROJECT_DIR$/../Page_Object_Model/.idea/Page_Object_Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Project_POM2/.idea/Project_POM2.iml" filepath="$PROJECT_DIR$/../Project_POM2/.idea/Project_POM2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SELENIUM/.idea/SELENIUM.iml" filepath="$PROJECT_DIR$/../SELENIUM/.idea/SELENIUM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SeleniumWithPython/.idea/SeleniumWithPython.iml" filepath="$PROJECT_DIR$/../SeleniumWithPython/.idea/SeleniumWithPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Selenium_Window_Handlee/.idea/Selenium_Window_Handlee.iml" filepath="$PROJECT_DIR$/../Selenium_Window_Handlee/.idea/Selenium_Window_Handlee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Project_POM/.idea/Simple_Project1.iml" filepath="$PROJECT_DIR$/../Project_POM/.idea/Simple_Project1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../selenium_tables/.idea/selenium_tables.iml" filepath="$PROJECT_DIR$/../selenium_tables/.idea/selenium_tables.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.10 (pythonProject)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="SELENIUM" />
+    <orderEntry type="module" module-name="SeleniumWithPython" />
+    <orderEntry type="module" module-name="SELENIUM" />
+    <orderEntry type="module" module-name="selenium_tables" />
+    <orderEntry type="module" module-name="Selenium_Window_Handlee" />
+    <orderEntry type="module" module-name="AutoIt" />
+    <orderEntry type="module" module-name="PYTEST" />
+    <orderEntry type="module" module-name="Page_Object_Model" />
+    <orderEntry type="module" module-name="Simple_Project1" />
+    <orderEntry type="module" module-name="Project_POM2" />
+  </component>
+</module>
