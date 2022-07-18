@@ -1,9 +1,6 @@
-
-
 import random
 
 class EmployeeWage:
-
     def employee(self):
 
         try:
@@ -22,4 +19,3 @@ if __name__ == "__main__":
         obj.employee()
     except Exception as e:
         print(e)
-

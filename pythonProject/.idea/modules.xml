@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../AutoIt/.idea/AutoIt.iml" filepath="$PROJECT_DIR$/../AutoIt/.idea/AutoIt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Data_Driven/.idea/Data_Driven.iml" filepath="$PROJECT_DIR$/../Data_Driven/.idea/Data_Driven.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PYTEST/.idea/PYTEST.iml" filepath="$PROJECT_DIR$/../PYTEST/.idea/PYTEST.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Page_Object_Model/.idea/Page_Object_Model.iml" filepath="$PROJECT_DIR$/../Page_Object_Model/.idea/Page_Object_Model.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Project_POM2/.idea/Project_POM2.iml" filepath="$PROJECT_DIR$/../Project_POM2/.idea/Project_POM2.iml" />

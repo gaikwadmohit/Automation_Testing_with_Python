@@ -3,17 +3,18 @@ import random
 
 
 class EmployeeWage:
-    def __init__(self, wage_per_hour, monthly_working_day):
+    def __init__(self,name,wage_per_hour, monthly_working_day):
+        self.name=name
         self.wage_per_hour = wage_per_hour
         self.monthly_working_day = monthly_working_day
 
-    def check_attendance(self,rand):
+    def check_attendance(self,random):
 
         try:
-            if rand == 0:
+            if random == 0:
                 daily_work_hour = 8
                 print("Employee is present ")
-            elif rand == 1:
+            elif random == 1:
                 daily_work_hour = 4
                 print("Employee is present for part-time ")
             else:
@@ -43,7 +44,8 @@ class EmployeeWage:
 
 if __name__ == "__main__":
     try:
-        obj = EmployeeWage(20, 20)
+        emp1=input("Enter name of Emloyee")
+        obj = EmployeeWage(emp1,20, 20)
         obj.calculating_wage()
     except Exception as e:
         print(e)
