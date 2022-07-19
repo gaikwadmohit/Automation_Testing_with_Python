@@ -1,21 +1,36 @@
 import requests
 
-body = {
-        "id": "1",
-        "title": "json-server",
-        "author": "typicode"
+body =[
+    {
+        "posts": [
+            {
+                "id": 1,
+                "title": "Mohit",
+                "author": "typicode"
+            }
+        ],
+        "comments": [
+            {
+                "id": 1,
+                "body": "some comment",
+                "postId": 1
+            }
+        ],
+        "profile": {
+            "name": "typicode"
+        },
+        "id": 1
     }
+]
 
-p = {"postId": 1}
-
-res = requests.get("http://localhost:3000/comments", params=p)
+res = requests.put(" http://localhost:3000/comments/1", data=body)
 print(res)
 
 print(res.text)
 print(
     "********************************************************************************************************************")
 
-print(res.content)
+print(res.encoding)
 print(
     "********************************************************************************************************************")
 
@@ -48,20 +63,5 @@ print(
     "********************************************************************************************************************")
 
 print(res.status_code)
-print(
-    "********************************************************************************************************************")
-
-# Validation
-
-statuscode = res.status_code
-assert statuscode == 201, "Status code not matching"
-print(
-    "********************************************************************************************************************")
-
-json1 = [
-    [{'id': 1, 'title': 'json-server', 'author': 'typicode'}]]
-
-json_value = res.json()
-assert json_value == json1, "Error in json"
 print(
     "********************************************************************************************************************")

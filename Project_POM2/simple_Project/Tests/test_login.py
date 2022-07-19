@@ -33,6 +33,7 @@ class LoginTest(unittest.TestCase):
         login.click_login()
 
         home_page=homepage(driver)
+        home_page.click_on_create_story()
         home_page.click_on_logout()
 
         time.sleep(2)
