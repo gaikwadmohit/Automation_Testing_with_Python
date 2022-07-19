@@ -17,5 +17,6 @@
     <orderEntry type="module" module-name="Simple_Project1" />
     <orderEntry type="module" module-name="Project_POM2" />
     <orderEntry type="module" module-name="Data_Driven" />
+    <orderEntry type="module" module-name="JSON_Server_API_Automation" />
   </component>
 </module>

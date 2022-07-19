@@ -1,25 +1,26 @@
-
 import random
 
 class Employee:
-    def __init__(self, name, wage_per_hour, monthly_working_day, total_working_hour):
-        self.name = name
+    def __init__(self, name,wage_per_hour):
         self.wage_per_hour = wage_per_hour
-        self.monthly_working_day = monthly_working_day
-        self.total_working_hour = total_working_hour
+        self.name = name
+        self.employee_dict = {}
 
-    def check_attendance(self, rand):
+    def as_dict(self):
+        return {"Name": self.name, "Total_wage": self.calculating_wage()}
+
+    def check_attendance(self,random):
 
         try:
-            if rand == 0:
+            if random == 0:
                 daily_work_hour = 8
-                # print(" Employee is present ")
-            elif rand == 1:
+                # print("Employee is present")
+            elif random == 1:
                 daily_work_hour = 4
-                # print(" Employee is present for part-time ")
+                # print("Employee is present for part-time ")
             else:
                 daily_work_hour = 0
-                # print(" Employee is absent ")
+                # print("Employee is absent ")
             return daily_work_hour
         except Exception as e:
             print(e)
@@ -27,30 +28,20 @@ class Employee:
     def calculating_wage(self):
 
         try:
-            total_wage = 0
-            no_of_working_days = 0
+            total_daily_wage=0
             working_hours = 0
-            while no_of_working_days < self.monthly_working_day and working_hours <= self.total_working_hour:
-                no_of_working_days += 1
+            while working_hours ==0:
+                working_hours += 1
                 rand = random.randint(0, 2)
                 daily_work_hour = self.check_attendance(rand)
-                # print(f" The working days is : {no_of_working_days}")
-                working_hours += daily_work_hour
-                # print(f" The working hours is : {working_hours}")
                 daily_wage = self.wage_per_hour * daily_work_hour
-                # print(f" The daily wage is : {daily_wage}")
-                total_wage += daily_wage
-                # print("------------------------------------------------")
-            # print(f"The monthly wage is : {total_wage}")
-            # print("------------------------------------------------")
-            return total_wage
+                total_daily_wage += daily_wage
+                if working_hours >8:
+                    break
+            return total_daily_wage
 
         except Exception as e:
-            print("There is something occurs please re-check the code")
-
-    def as_dict(self):
-        return {"Name": self.name, "Total_wage": self.calculating_wage()}
-
+            print(e)
 
 class Company:
     def __init__(self, name):
@@ -71,11 +62,9 @@ class Company:
         return self.employee_dict
 
     def employee_details_view(self):
-        for i in self.employee_dict:
-            # print(i)
-            # print(self.employee_dict.get(i))
-            emp_obj = self.employee_dict.get(i)
-            print(emp_obj.as_dict())
+        for i,value in self.employee_dict.items():
+
+            print(value.as_dict())
         return self.employee_dict
 
 
@@ -84,7 +73,6 @@ def add_company():
     comp_obj = Company(comp)
     comp_dict.update({comp_obj.name: comp_obj})
     return comp_dict
-
 
 def display_company():
     print(comp_dict)
@@ -97,7 +85,7 @@ def add_employee():
         comp_e = Company(c_name)
         comp_dict.update({comp_e.name: comp_e})
     name = input("Enter employee name : ")
-    emp = Employee(name, 50, 20, 100)
+    emp = Employee(name,50)
     comp_e.add_employee(emp)
 
 
@@ -122,22 +110,29 @@ def delete_employee():
 
 
 def display_employees():
-    print("<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    print("*************************************")
     company_name = input("Enter company name : ")
     comp_obj = comp_dict.get(company_name)
     if comp_obj is None:
         print("Company doesn't exit ")
         return
     comp_obj.employee_details_view()
-    print("<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>")
+
 
 
 if __name__ == "__main__":
+
     try:
         comp_dict = {}
         while True:
-            print("1.add_company\n2.Display Company\n3.Add Employee \n4.Get Employee\n5.Delete "
-                  "Employee\n6.display_employees\n0.Exit")
+            print("1.add_company"
+                  "\n2.Display Company"
+                  "\n3.Add Employee"
+                  "\n4.Get Employee"
+                  "\n5.Delete Employee"
+                  "\n6.display_employees"
+                  "\n0.Exit")
+
             dict_e = {1: add_company,
                       2: display_company,
                       3: add_employee,
@@ -150,12 +145,9 @@ if __name__ == "__main__":
                 break
             dict_e.get(r)()
             input("Press enter to continue ")
-            print("--------------------- Choose Option ----------------------")
+            print("Please Choose following Option ")
 
     except Exception as e:
         print(e)
-        logging.warning(e)
-    else:
-        print("      Employee Wage Calculation  ")
-    finally:
-        print(" <<<<<<<<<<<<<<----->>>>>>>>>>>>>>>>>>> ")
+
+

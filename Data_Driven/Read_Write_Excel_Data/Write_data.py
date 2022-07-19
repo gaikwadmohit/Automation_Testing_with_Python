@@ -15,7 +15,7 @@ def write_data():
 def write_data_in_each_cell():
     file = 'C:/Users/MOHIT/OneDrive/Desktop/simpla_data_read.xlsx'
     workbook = openpyxl.load_workbook(file)
-    sheet = workbook["mohit3"]
+    sheet = workbook["mohit1"]
 
     sheet.cell(1,1).value=101
     sheet.cell(1,2).value=102

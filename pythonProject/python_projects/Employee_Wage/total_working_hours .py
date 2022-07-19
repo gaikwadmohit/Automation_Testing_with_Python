@@ -1,7 +1,7 @@
 
 import random
 
-class Employee:
+class EmployeeWage:
     def __init__(self, name, wage_per_hour, monthly_working_day, total_working_hour):
         self.name = name
         self.wage_per_hour = wage_per_hour
@@ -40,13 +40,11 @@ class Employee:
                 daily_wage = self.wage_per_hour * daily_work_hour
                 # print(f" The daily wage is : {daily_wage}")
                 total_wage += daily_wage
-                # print("------------------------------------------------")
             # print(f"The monthly wage is : {total_wage}")
-            # print("------------------------------------------------")
             return total_wage
 
         except Exception as e:
-            print("There is something occurs please re-check the code")
+            print(e)
 
     def as_dict(self):
         return {"Name": self.name, "Total_wage": self.calculating_wage()}
@@ -72,8 +70,8 @@ class Company:
 
     def employee_details_view(self):
         for i in self.employee_dict:
-            # print(i)
-            # print(self.employee_dict.get(i))
+            print(i)
+            print(self.employee_dict.get(i))
             emp_obj = self.employee_dict.get(i)
             print(emp_obj.as_dict())
         return self.employee_dict
@@ -97,7 +95,7 @@ def add_employee():
         comp_e = Company(c_name)
         comp_dict.update({comp_e.name: comp_e})
     name = input("Enter employee name : ")
-    emp = Employee(name, 50, 20, 100)
+    emp = EmployeeWage(name, 40, 10, 80)
     comp_e.add_employee(emp)
 
 
@@ -122,14 +120,14 @@ def delete_employee():
 
 
 def display_employees():
-    print("<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    print("***********************************")
     company_name = input("Enter company name : ")
     comp_obj = comp_dict.get(company_name)
     if comp_obj is None:
         print("Company doesn't exit ")
         return
     comp_obj.employee_details_view()
-    print("<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    print("*************************************")
 
 
 if __name__ == "__main__":
@@ -150,12 +148,7 @@ if __name__ == "__main__":
                 break
             dict_e.get(r)()
             input("Press enter to continue ")
-            print("--------------------- Choose Option ----------------------")
+            print("Choose Option ")
 
     except Exception as e:
         print(e)
-        logging.warning(e)
-    else:
-        print("      Employee Wage Calculation  ")
-    finally:
-        print(" <<<<<<<<<<<<<<----->>>>>>>>>>>>>>>>>>> ")

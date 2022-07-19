@@ -12,7 +12,7 @@ class LoginPage():
         self.login_button_Name = locators.Locators.login_button_Name
 
     def enter_username(self, username):
-        self.driver.find_element(By.NAME, self.username_textbox_ID).clear()
+        self.driver.find_element(By.NAME, locators.Locators.username_textbox_ID).clear()
         self.driver.find_element(By.NAME, self.username_textbox_ID).send_keys(username)
 
     def enter_passsward(self, passward):

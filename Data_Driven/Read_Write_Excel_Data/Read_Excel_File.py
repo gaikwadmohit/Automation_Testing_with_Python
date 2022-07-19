@@ -3,7 +3,7 @@ import openpyxl
 # -------     Read Data from excel   ---------
 file = 'C:/Users/MOHIT/OneDrive/Desktop/simpla_data_read.xlsx'
 workbook = openpyxl.load_workbook(file)
-sheet = workbook["mohit1"]
+sheet = workbook["mohit"]
 
 rows = sheet.max_row
 cols = sheet.max_column
