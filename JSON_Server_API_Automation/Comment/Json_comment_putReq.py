@@ -1,29 +1,8 @@
 import requests
 
-body =[
-    {
-        "posts": [
-            {
-                "id": 1,
-                "title": "Mohit",
-                "author": "typicode"
-            }
-        ],
-        "comments": [
-            {
-                "id": 1,
-                "body": "some comment",
-                "postId": 1
-            }
-        ],
-        "profile": {
-            "name": "typicode"
-        },
-        "id": 1
-    }
-]
+body ={ "id": 1, "body": "some comment", "postId": 5 }
 
-res = requests.put(" http://localhost:3000/comments/1", data=body)
+res = requests.put(" http://localhost:3000/comments/5", data=body)
 print(res)
 
 print(res.text)

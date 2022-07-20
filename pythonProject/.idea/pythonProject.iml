@@ -18,5 +18,8 @@
     <orderEntry type="module" module-name="Project_POM2" />
     <orderEntry type="module" module-name="Data_Driven" />
     <orderEntry type="module" module-name="JSON_Server_API_Automation" />
+    <orderEntry type="module" module-name="Spotify_API_Automation_python" />
+    <orderEntry type="module" module-name="Employee_Wage" />
+    <orderEntry type="module" module-name="Address_Book" />
   </component>
 </module>

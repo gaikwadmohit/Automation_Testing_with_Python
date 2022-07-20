@@ -1,10 +1,6 @@
 import requests
 
-body = {
-        "id": "1",
-        "title": "json-server",
-        "author": "typicode"
-    }
+body = { "id": 1, "body": "some comment", "postId": 1 }
 
 p = {"postId": 1}
 
@@ -63,5 +59,6 @@ json1 = [
 
 json_value = res.json()
 assert json_value == json1, "Error in json"
+
 print(
     "********************************************************************************************************************")
