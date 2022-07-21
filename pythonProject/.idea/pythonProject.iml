@@ -21,5 +21,6 @@
     <orderEntry type="module" module-name="Spotify_API_Automation_python" />
     <orderEntry type="module" module-name="Employee_Wage" />
     <orderEntry type="module" module-name="Address_Book" />
+    <orderEntry type="module" module-name="Swagger_API_Automation" />
   </component>
 </module>

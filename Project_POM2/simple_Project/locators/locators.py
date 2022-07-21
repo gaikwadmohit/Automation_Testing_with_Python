@@ -8,7 +8,7 @@ class Locators():
     select_home_logo = "//a[@aria-label='Home']"
     click_photo_video= "//span[contains(text(),'Photo/video')]"
     click_emoji = "(//i[@class='hu5pjgll bixrwtb6'])[4]"
-    click_on_happy = "//div[contains(text(),'happy')]"
+    click_on_happy = "//div[contains(text(),'loved')]"
     click_on_post_button = "//span[contains(text(),'Post')]"
 
 

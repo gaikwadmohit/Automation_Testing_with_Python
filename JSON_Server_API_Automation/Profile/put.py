@@ -2,7 +2,7 @@ import requests
 
 body={
 
- "profile": { "name": "mohit123" }
+ "name": "mohit123"
 }
 
 res=requests.put("http://localhost:3000/profile",data=body)

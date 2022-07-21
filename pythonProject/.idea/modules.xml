@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/../Selenium_Window_Handlee/.idea/Selenium_Window_Handlee.iml" filepath="$PROJECT_DIR$/../Selenium_Window_Handlee/.idea/Selenium_Window_Handlee.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Project_POM/.idea/Simple_Project1.iml" filepath="$PROJECT_DIR$/../Project_POM/.idea/Simple_Project1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Spotify_API_Automation_python/.idea/Spotify_API_Automation_python.iml" filepath="$PROJECT_DIR$/../Spotify_API_Automation_python/.idea/Spotify_API_Automation_python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Swagger_API_Automation/.idea/Swagger_API_Automation.iml" filepath="$PROJECT_DIR$/../Swagger_API_Automation/.idea/Swagger_API_Automation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/../selenium_tables/.idea/selenium_tables.iml" filepath="$PROJECT_DIR$/../selenium_tables/.idea/selenium_tables.iml" />
     </modules>
