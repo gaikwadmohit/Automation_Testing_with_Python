@@ -22,5 +22,8 @@
     <orderEntry type="module" module-name="Employee_Wage" />
     <orderEntry type="module" module-name="Address_Book" />
     <orderEntry type="module" module-name="Swagger_API_Automation" />
+    <orderEntry type="module" module-name="Database_testing" />
+    <orderEntry type="module" module-name="Allure_report_selenium_pytest" />
+    <orderEntry type="module" module-name="Allure_report" />
   </component>
 </module>

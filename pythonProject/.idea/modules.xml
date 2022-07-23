@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Address_Book/.idea/Address_Book.iml" filepath="$PROJECT_DIR$/../Address_Book/.idea/Address_Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Allure_report/.idea/Allure_report.iml" filepath="$PROJECT_DIR$/../Allure_report/.idea/Allure_report.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Allure_report_selenium_pytest/.idea/Allure_report_selenium_pytest.iml" filepath="$PROJECT_DIR$/../Allure_report_selenium_pytest/.idea/Allure_report_selenium_pytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../AutoIt/.idea/AutoIt.iml" filepath="$PROJECT_DIR$/../AutoIt/.idea/AutoIt.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Data_Driven/.idea/Data_Driven.iml" filepath="$PROJECT_DIR$/../Data_Driven/.idea/Data_Driven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Database_testing/.idea/Database_testing.iml" filepath="$PROJECT_DIR$/../Database_testing/.idea/Database_testing.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Employee_Wage/.idea/Employee_Wage.iml" filepath="$PROJECT_DIR$/../Employee_Wage/.idea/Employee_Wage.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JSON_Server_API_Automation/.idea/JSON_Server_API_Automation.iml" filepath="$PROJECT_DIR$/../JSON_Server_API_Automation/.idea/JSON_Server_API_Automation.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PYTEST/.idea/PYTEST.iml" filepath="$PROJECT_DIR$/../PYTEST/.idea/PYTEST.iml" />
